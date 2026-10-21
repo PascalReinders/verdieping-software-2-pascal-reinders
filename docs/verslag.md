@@ -205,19 +205,19 @@ Leerdoelen behaald? Wat heb je geleerd? Wat zou je een volgende keer anders doen
 [^1]:
     Good Company. Medior Unreal Engine C++ Developer.
     Geraadpleegd op 16 september 2026 via: https://joingoodcompany.nl/vacatures/ict/overig/overig/vacature-a0wSf000000mKsxIAE/
-    ![Vacature 1](img/vacature-2.png)
+    <img width="762" height="332" alt="Image" src="https://github.com/user-attachments/assets/6216b52c-1948-4a61-96e1-d8762d6cecf4" />
 
 [^2]:
     Simendo BV. Junior 3D Simulatie / Desktop Software Developer.
     Geraadpleegd op 23 september 2026 via:
     https://nl.indeed.com/q-rust-developer-vacatures.html?vjk=209efa36ecc5fe2a
-    ![Vacature 2](img/vacature-3.png)
+    <img width="833" height="480" alt="Image" src="https://github.com/user-attachments/assets/009b4537-0318-445b-bf68-c7b420f1e8e9" />
 
 [^3]:
     Wazdan. Java Game Developer.
     Geraadpleegd op 23 september 2026 via:
     https://wazdan.com/career/java-game-developer
-    ![Vacature 3](img/vacature-1.png)
+    <img width="1071" height="337" alt="Image" src="https://github.com/user-attachments/assets/7464df42-16fb-4b39-8493-5b9d86c599a0" />
 
 [^4]:
     crates. bevy, Stats Overview.
