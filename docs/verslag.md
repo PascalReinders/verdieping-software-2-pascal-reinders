@@ -36,6 +36,9 @@ Datum : 07/10/2026
         - [Wat weet ik nog niet?](#wat-weet-ik-nog-niet)
         - [Wat wil ik nog leren uit deze verdieping software?](#wat-wil-ik-nog-leren-uit-deze-verdieping-software)
     - [Leerdoelen formuleren](#leerdoelen-formuleren)
+      - [Leerdoel 1: C++ basis syntax, functies en objectgeoriënteerd progammeren](#leerdoel-1-c-basis-syntax-functies-en-objectgeoriënteerd-progammeren)
+      - [Leerdoel 2: Dynamische Data Beheren via de C++ standard template library](#leerdoel-2-dynamische-data-beheren-via-de-c-standard-template-library)
+      - [Leerdoel 3: Low-level geheugenbeheer via C++ referenties en pointers](#leerdoel-3-low-level-geheugenbeheer-via-c-referenties-en-pointers)
     - [Prototype voorstel](#prototype-voorstel)
     - [Planning](#planning)
     - [Logboek](#logboek)
@@ -176,7 +179,34 @@ Ik ga hier nog een reflectie schrijven van hoe dit onderzoek is verlopen. Hierbi
 
 ### Leerdoelen formuleren
 
-Maak een overzicht van je leerdoelen. Wat wil je leren en wat wil je bereiken? Formuleer je leerdoelen [SMART](https://www.uu.nl/sites/default/files/upper_leerdoelen_smart_opstellen.pdf).
+Voor mijn Verdieping Software ga ik de progammeertaal C++ eigen maken. Ik heb hierbij besloten dat ik echter van 11 november tot uiterlijk 6 januari bezig met het leren van C++, de reden dat ik niet 16 december heb gekozen voor mijn prototype afronden is omdat ik de tijd wil nemen voor C++, want C++ is een moeilijke taal om te leren, en ook om stress te voorkomen. Ik heb besloten om drie leerdoelen op-te-stellen voor C++. Ik ga hiervoor codecademy en exercism.org, hoe ik hier bewijsmateriaal voor ga verzamelen kom ik later op terug. De leerdoelen zijn:
+
+#### Leerdoel 1: C++ basis syntax, functies en objectgeoriënteerd progammeren
+
+- S(pecifiek): Ik wil graag de basissyntax vam C++, functies en Objectgeoriënteerd Progammeren. Ik ga voornamelijk bezig met datatypen (Bijvoorbeeld int, float en std::string), if/else, loops en de public en private classes.
+- M(eetbaar): Dit leerdoel wil ik behalen doormiddel van de gratis course over C++ van codecademy, de modules die ik hiervoor ga maken zijn: Hello World, Conditionals & Logic, Loops, Functions en Classes & Objects. Deze opdrachten zal ik volledig afronden.
+- A(cceptabel): Objectgeoriënteerd progammeren zal gedurende het leerprocess geleerd worden voor de syntax en functies.
+- R(ealistisch): Omdat ik al een tijdje bezig ben met de progammeertaal C# zal ik de modules op codecademy gemakkelijk afronden.
+- T(ijdgebonden): Dit leerdoel zal vanaf 11 november aan gewerkt worden en op 18/21 november zal dit afgerond zijn.
+- Relevantie: Dit is een zeer noodzakelijk om te weten voor C++, al zeker op de arbeidsmarkt of als je met Unreal Engine wilt werken.
+
+#### Leerdoel 2: Dynamische Data Beheren via de C++ standard template library
+
+- S(pecifiek): Ik wil graag leren hoe de C++ standard template library gebruikt kan worden, in specifiek zou ik de std::vector willen leren, zodat ik dynamische lijsten van objects aan te maken, doorlopen en aan te passen.
+- M(eetbaar): Dit leerdoel wil ik behalen doormiddel van de opdrachten op Exercism.org. De opdrachten die gemaakt zullen worden zijn de opdrachten rondom vectors en STL containers zelf. Als deze zijn opgelost en goedgekeurd is de opdracht klaar.
+- A(cceptabel): In games veranderen elementen erg vaak van grootte, het weten en toepassen van dynamische datastructuren is nodig om runtime crashes te voorkomen.
+- R(ealistisch): Door de opdrachten pas ik opnieuw de basissyntax toe en maak ik gebruik van de opdrachten van Exercism.
+- T(ijdgebonden): Ik ben van plan om hier van 25 november tot uiterlijk 2 december bezig te gaan.
+- Relevantie: Bij C++ moet je weten hoe de dynamische data in het geheugen word verschuift. Werknemers online zoeken daarom ook mensen die goede datastructuren kunnen kiezen om geheugen in zware games te minimaliseren.
+
+#### Leerdoel 3: Low-level geheugenbeheer via C++ referenties en pointers
+
+- S(pecifiek): Ik wil graag leren in C++ om met fysieke hardware architectuur door de references en pointers te gebruiken. Ook het handmatig alloceren en vrijmaken van geheugen op de Heap.
+- M(eetbaar): Dit doel is behaald als ik de modules; pointers & memory management van Exercise.org heb afgerond en is nagekeken door de website zelf.
+- A(cceptabel): Deze leerdoel is een van de redenen dat ik C++ heb gekozen.
+- R(ealistisch): Dit is het moeilijkste leerdoel waardoor dit de laatste en belangrijkste leerdoel is voor dit keuzedeel.
+- T(ijdgebonden): Dit leerdoel wil ik graag op 9 december een start maken, dit wil ik op 16 december zelf afronden.
+- Relevantie: Zoals ik heb bewezen in het marktonderzoek, draait de markt rondom game development ook grotendeels op hardware-optimalisatie. Door de beheersing van pointers en handmatige geheugenbeheer heb je dus de kennis voor die hardware-optimalisatie, en kan je ook als developer onderscheiden worden op de arbeidsmarkt door die kennis; sommige studio's eisen ook om volledige manipulatie kunnen toepassen over de chip, zonder dat er een crash komt.
 
 ### Prototype voorstel
 
@@ -205,19 +235,19 @@ Leerdoelen behaald? Wat heb je geleerd? Wat zou je een volgende keer anders doen
 [^1]:
     Good Company. Medior Unreal Engine C++ Developer.
     Geraadpleegd op 16 september 2026 via: https://joingoodcompany.nl/vacatures/ict/overig/overig/vacature-a0wSf000000mKsxIAE/
-    <img width="762" height="332" alt="Image" src="https://github.com/user-attachments/assets/6216b52c-1948-4a61-96e1-d8762d6cecf4" />
+    <img width="300" height="150" alt="Image" src="https://github.com/user-attachments/assets/6216b52c-1948-4a61-96e1-d8762d6cecf4" />
 
 [^2]:
     Simendo BV. Junior 3D Simulatie / Desktop Software Developer.
     Geraadpleegd op 23 september 2026 via:
     https://nl.indeed.com/q-rust-developer-vacatures.html?vjk=209efa36ecc5fe2a
-    <img width="833" height="480" alt="Image" src="https://github.com/user-attachments/assets/009b4537-0318-445b-bf68-c7b420f1e8e9" />
+    <img width="300" height="150" alt="Image" src="https://github.com/user-attachments/assets/009b4537-0318-445b-bf68-c7b420f1e8e9" />
 
 [^3]:
     Wazdan. Java Game Developer.
     Geraadpleegd op 23 september 2026 via:
     https://wazdan.com/career/java-game-developer
-    <img width="1071" height="337" alt="Image" src="https://github.com/user-attachments/assets/7464df42-16fb-4b39-8493-5b9d86c599a0" />
+    <img width="300" height="150" alt="Image" src="https://github.com/user-attachments/assets/7464df42-16fb-4b39-8493-5b9d86c599a0" />
 
 [^4]:
     crates. bevy, Stats Overview.
