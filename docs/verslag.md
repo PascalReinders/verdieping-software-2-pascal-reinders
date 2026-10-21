@@ -29,9 +29,12 @@ Datum : 07/10/2026
     - [Onderbouwing onderzoek en keuze](#onderbouwing-onderzoek-en-keuze)
   - [Maakt zich de software eigen](#maakt-zich-de-software-eigen)
     - [Reflectie](#reflectie)
-      - [Wat weet ik?](#wat-weet-ik)
-      - [Wat weet ik nog niet?](#wat-weet-ik-nog-niet)
-      - [Wat wil ik nog leren uit deze verdieping software?](#wat-wil-ik-nog-leren-uit-deze-verdieping-software)
+      - [Situatie 1:](#situatie-1)
+      - [Situatie 2:](#situatie-2)
+      - [Situatie 3:](#situatie-3)
+        - [Wat weet ik?](#wat-weet-ik)
+        - [Wat weet ik nog niet?](#wat-weet-ik-nog-niet)
+        - [Wat wil ik nog leren uit deze verdieping software?](#wat-wil-ik-nog-leren-uit-deze-verdieping-software)
     - [Leerdoelen formuleren](#leerdoelen-formuleren)
     - [Prototype voorstel](#prototype-voorstel)
     - [Planning](#planning)
@@ -129,17 +132,43 @@ Dit is mijn conclusie, C++ word het onderwerp wat ik ga leren.
 
 ### Reflectie
 
-#### Wat weet ik?
+Ik ga hier nog een reflectie schrijven van hoe dit onderzoek is verlopen. Hierbij gebruik ik het STARR methode, er zal over drie situaties geschreven worden.
+
+#### Situatie 1:
+
+- **S(ituatie):** Tijdens het onderzoek voor welke populairste game engines voor het specifieke progammeertaal het meest gebruikt word, om zo aan te tonen hoe het de meest gebruikte engine is. Dit wou ik doen door middel van meeste downloads van een engine. Het probleem lag dus ook dat unreal engine en Libgdx geen (up-to-date) totale downloads waren. Dit was lastiger dan gedacht want niet elke engine plaatst hun totale downloads.
+- **T(aak):** Het was mijn taak om een andere bewijs te vinden om aan te tonen dat een engine het meest gebruikt word van de drie die ik had gevonden.
+- **A(ctie):** Wat ik dus gedaan was ik was blijven zoeken voor unreal engine met de zoekterm: "Totale downloads Unreal Engine", waaruit kwam er een blog uit 2018 die wat vertelde over dat er toen 8 miljoen downloads in totaal zijn, ik dacht hierbij: "Als dit 8 jaar geleden was, dan zouden er veel meer downloads moeten zijn, vooral dat er zoveel over word gesproken.", hierbij is dus die bron uitgekomen. Voor Libgdx was het anders, ik zocht dezelfde zoekterm en daar kwam niks uit, dus wou ik op de github kijken om de Libgdx te kunnen gebruiken en daar zag ik de forks en de Stars, want dat was voor mij de enige manier om te bewijzen hoeveel mensen het gebruiken.
+- **R(esultaat):** Door het zoektocht een klein beetje aan te passen heb ik wel bewijsmateriaal voor mijn claims kunnen vinden.
+- **R(eflectie):** Ik denk als ik de volgende keer eerder mijn zoekgebied groter maak door ook andere dingen als bewijs te laten tellen, dat ik hier niet zo lang mee bezig was met zoeken.
+
+#### Situatie 2:
+
+- **S(ituatie):** Ik was voor de _Vraag op de arbeidsmarkt_ gedeelte bezig om via Indeed vacatures te zoeken hoevaak een progammeertaal terug word gevraagd voor aam Game Developer vacature. Toen ik een van de progammeertalen intypte met daarbij "game developer" in de input, zag ik dat er alsnog andere banen buiten game developer erbij staan, daardoor zal mijn argument incorrect worden aangegeven.
+- **T(aak):** Mijn taak was om een site te zoeken die daadwerkelijk alleen game gerelateerde vactures toont als ik een progammeertaal in de zoekbalk invul.
+- **A(ctie):** Ik heb onderzocht welke website alleen vactures heeft voor game banen, hiervoor moest ik specifiek kijken of er ook andere developerfuncties bijzitten.
+- **R(esultaat):** Uiteindelijk heb ik een gamegerelateerde vacaturewebsite voor over de hele wereld gevonden met echte vactures voor de game dev functie is. Hiermee kon ik aantonen welke progammeertalen meer op de arbeidsmarkt word teruggevraagt.
+- **R(eflectie):** Ik had beter gelijk naar een specifieke website moeten zoeken voor de developerfunctie waar ik naar op zoek was. Als ik dit had gedaan had ik zeker tijd kunnen besparen.
+
+#### Situatie 3:
+
+- **S(ituatie):** Ik was voor _Toegang tot Low-Level hardware_ op zoek naar een manier om dit te bewijzen, de resultaten die ik op de browser vond waren ook niet echt waardig om te gebruiken voor bewijs. Dus ik moest echter betrouwbare bewijs vinden om te kunnen gebruiken.
+- **T(aak):** Ik moest op zoek naar officiële websites van de progammeertalen zelf, om te vinden of er een documentatie tussen zit om te bewijzen of het wel of geen toegang heeft tot low-level hardware.
+- **A(ctie):** Ik heb onderzocht wie de uitgevers of bedrijven zijn van de progammeertalen, dat was gelukt. Daarna had ik door de documentaties gekeken om iets te vinden over de low-level hardware en dat was voor alle drie ook gelukt na veel lezen.
+- **R(esultaat):** Ik heb bewijs kunnen vinden voor het relevante punt en daarmee de bronnen en tabel ermee ingevult met de gegeven informatie.
+- **R(eflectie):** Ik moet mezelf aanleren om vaker door de officïele documentaties te kijken voor feitelijke informatie, en dat weer gebruiken als bewijs.
+
+##### Wat weet ik?
 
 - Ik weet dankzij C# en Javascript de basisconcept van progammeertalen. Voorbeelden zijn dus: variable data opslaan, if en else voor keuzes die de codetaal moet checken en loops om code te herhalen.
 - Dankzij mijn onderzoek weet ik dat C++ geen automatische garbage collector heeft zoals Java, en geen strenge compiler-beveiliging zoals Rust. Door deze redenen week ik dat ikzelf verantwoordelijk ben voor de stabiliteit van mijn code.
 
-#### Wat weet ik nog niet?
+##### Wat weet ik nog niet?
 
 - Ik weet nog niet zoveel van de aparte C++ syntax, daardoor heb ik wel de basis progammeurkennis van progammeertalen, maar ik weet niet hoe ik dit toepas in C++ zelf. De syntax is veel moeilijker dan C# en Javascript. Ikzelf snap de objectgeoriënteerd programmeren ook nog niet helemaal. Ik heb wel geleerd in C# wat een class en object inhoudt, maar nog niet wanneer ik dit het beste kan toepassen.
 - Ook weet ik nog niet hoe ik data handmatig moet toewijzen aan het computergeheugen en hoe ik pointers en references moet gebruiken, zonder dat het systeem crashed.
 
-#### Wat wil ik nog leren uit deze verdieping software?
+##### Wat wil ik nog leren uit deze verdieping software?
 
 - Ik zou graag willen weten hoe ik de C++ syntax toepas zodat ik niet problemen krijg bij het opstarten. compileren en debuggen.
 - Ik wil graag leren om de Standard Template Library en std::vector te gebruiken om een flexibele lijst van objecten te maken die tijdens het draaien van de programma kan veranderen.
