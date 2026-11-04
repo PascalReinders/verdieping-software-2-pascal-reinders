@@ -187,13 +187,13 @@ Voor mijn Verdieping Software ga ik de progammeertaal C++ eigen maken. Ik heb hi
 - M(eetbaar): Dit leerdoel wil ik behalen doormiddel van de gratis course over C++ van codecademy, de modules die ik hiervoor ga maken zijn: Hello World, Conditionals & Logic, Loops, Functions en Classes & Objects. Deze opdrachten zal ik volledig afronden.
 - A(cceptabel): Objectgeoriënteerd progammeren zal gedurende het leerprocess geleerd worden voor de syntax en functies.
 - R(ealistisch): Omdat ik al een tijdje bezig ben met de progammeertaal C# zal ik de modules op codecademy gemakkelijk afronden.
-- T(ijdgebonden): Dit leerdoel zal vanaf 11 november aan gewerkt worden en op 18/21 november zal dit afgerond zijn.
+- T(ijdgebonden): Dit leerdoel zal vanaf 11 november aan gewerkt worden en op 18 november zal dit afgerond zijn.
 - Relevantie: Dit is een zeer noodzakelijk om te weten voor C++, al zeker op de arbeidsmarkt of als je met Unreal Engine wilt werken.
 
 #### Leerdoel 2: Dynamische Data Beheren via de C++ standard template library
 
 - S(pecifiek): Ik wil graag leren hoe de C++ standard template library gebruikt kan worden, in specifiek zou ik de std::vector willen leren, zodat ik dynamische lijsten van objects aan te maken, doorlopen en aan te passen.
-- M(eetbaar): Dit leerdoel wil ik behalen doormiddel van de opdrachten op Exercism.org. De opdrachten die gemaakt zullen worden zijn de opdrachten rondom vectors en STL containers zelf. Als deze zijn opgelost en goedgekeurd is de opdracht klaar.
+- M(eetbaar): Dit leerdoel wil ik behalen doormiddel van de opdrachten op Exercism.org. De opdrachten die gemaakt zullen worden zijn de opdrachten rondom vectors Arrays zelf. Als deze zijn opgelost en goedgekeurd is de opdracht klaar.
 - A(cceptabel): In games veranderen elementen erg vaak van grootte, het weten en toepassen van dynamische datastructuren is nodig om runtime crashes te voorkomen.
 - R(ealistisch): Door de opdrachten pas ik opnieuw de basissyntax toe en maak ik gebruik van de opdrachten van Exercism.
 - T(ijdgebonden): Ik ben van plan om hier van 25 november tot uiterlijk 2 december bezig te gaan.
@@ -202,7 +202,7 @@ Voor mijn Verdieping Software ga ik de progammeertaal C++ eigen maken. Ik heb hi
 #### Leerdoel 3: Low-level geheugenbeheer via C++ referenties en pointers
 
 - S(pecifiek): Ik wil graag leren in C++ om met fysieke hardware architectuur door de references en pointers te gebruiken. Ook het handmatig alloceren en vrijmaken van geheugen op de Heap.
-- M(eetbaar): Dit doel is behaald als ik de modules; pointers & memory management van Exercise.org heb afgerond en is nagekeken door de website zelf.
+- M(eetbaar): Dit doel is behaald als ik de modules; References en Pointers van Exercise.org heb afgerond en is nagekeken door de website zelf.
 - A(cceptabel): Deze leerdoel is een van de redenen dat ik C++ heb gekozen.
 - R(ealistisch): Dit is het moeilijkste leerdoel waardoor dit de laatste en belangrijkste leerdoel is voor dit keuzedeel.
 - T(ijdgebonden): Dit leerdoel wil ik graag op 9 december een start maken, dit wil ik op 16 december zelf afronden.
@@ -210,11 +210,47 @@ Voor mijn Verdieping Software ga ik de progammeertaal C++ eigen maken. Ik heb hi
 
 ### Prototype voorstel
 
-Een duidelijk, uitgebreid prototypevoorstel wat past bij de gestelde leerdoelen.
+Om echt te kunnen bewijzen dat ik de drie C++ leerdoelen onder de knie heb. Daarvoor zal ik echter een prototype moeten stellen. Waar ik nu mee bezig ga is een voorstel voor mijn prototype. Hier word erop gericht dat iedereen kan zien dat ik echt de kennis heb.
+
+Het idee voor het voorstel zit zo inelkaar: Er komt een map met alle opdrachten die ik heb gemaakt met deze websites: "codecademy" en "exercism". In die map zullen drie mappen zijn met een van de leerdoelen als naam, daarin vind je de opdrachten die zouden moeten voldoen aan het specifieke leerdoel. Ook ga ik een eindopdracht / eindprototype maken, daarin zal ik alle drie leerdoelen samenstellen en een werkende opdracht maken.
+
+Wat het eindproduct / eindprototype word is als volgt: In NexEd hebben we een project voor C# en daarin moet je een Trivia Game maken, ik wil deze opdracht ombouwen tot een opdracht waarin ik de leerdoelen die ik heb geleerd. Wat je in dat C# project moest maken was een console game schrijven waarin je trivia vragen moet beantwoorden. De game moet de vragen uit een willkeurig uit een lijst met vooraf opgestelde vragen en antwoorden kiezen. Je moet er ook voor zorgen dat je niet meerdere keren dezefde vraag tegenkomt als je het speelt. De game moet duren totdat de speler een x aantal fouten maakt of de vragen allemaal beantwoord zijn. Ook moet de totale score gedurende game bijgehouden worden van de speler. De game moet ook vanbinnen een start-'menu' hebben en moet binnen de applicatie opnieuw te starten. Deze eisen wil ik minimaal eisen in het eindprototype, dit doe ik i.v.m normale criteria en user-stories criteria:
+
+- In de opdracht moet minstens 20 verschillende vragen en antwoorden terugkomen.
+- De vragen moeten willekeurig zijn.
+- Een vraag mag niet terugkomen in de game als het al beantwoord is
+- Een score systeem.
+- Herstarten binnen applicatie.
+- Startmenu met spelernaam.
+
+- Als docent wil ik geen losse arrays van losse strings, maar een volwaardige class zien, zodat ik weet dat leerdoel 1 is toegepast.
+- Als docent wil ik variabelen in de class member: private zien, zodat ik weet dat leerdoel 1 is toegepast.
+- Als docent wil ik functies in de class member: public zien, zodat ik weet dat leerdoel 1 is toegepast.
+- Als docent wil ik een dynamsche lijst waarin bij de start van de game alle vragen laden zien, zodat ik weet dat leerdoel 2 is toegepast.
+- Als docent wil ik een functionaliteit terugzien dat een vraag van de dynamische lijst/vector word verwijderd zien, zodat ik weet dat leerdoel 2 is toegepast.
+- Als docent wil ik een end condition zien dat controleerd of de vector leeg is terugzien, zodat ik weet dat leerdoel 2 is toegepast.
+- Als docent wil ik references bij functies terugzien, zodat ik weet dat leerdoel 3 is toegepast.
+- Als docent wil ik pointers terug zien om de huidige actieve vraag bij te houden, zodat ik weet dat leerdoel 3 is toegepast.
 
 ### Planning
 
-Maak een planning met een uitgewerkte tijdslijn van de te volgen stappen om je leerdoelen te behalen. Neem hierin ook de tijd op die je nodig hebt om je prototype te maken.
+| Week    | Datum  | Taak                                                                                                                                                        | Tijd     |
+| :------ | :----- | :---------------------------------------------------------------------------------------------------------------------------------------------------------- | :------- |
+| Week 46 | 11-nov | In Codecademy met de module "Hello World", de opdrachten waar ik aan ga werken zijn Lesson "Hello World" en "Compile & Execute"                             | 1 uur    |
+| Week 46 | 11-nov | In Codecademy met de module "Variables", de opdrachten zijn "Variables", "Dog Years", "Quadritic Formula" en "Piggy Bank"                                   | 1.5 uur  |
+| Week 46 | 11-nov | In Codecademy met de module "Conditionals & Logic", de opdracht is: "Conditionals & Logic"                                                                  | 0.5 uur  |
+| Week 47 | 18-nov | In Codecademy met de module verder werken aan "Conditionals & Logic".                                                                                       | 0.75 uur |
+| Week 47 | 18-nov | In Codecademy met de module "Loops", de opdrachten zijn "Loops", "Fizz Buzz" en "Errors"                                                                    | 1.25 uur |
+| Week 47 | 18-nov | In Codecademy met de module "Functions", de opdrachten zijn "Functions", "Functions: Scope & Flexibility" en UFO                                            | 1 uur    |
+| Week 48 | 25-nov | In exercism.org met de module "Arrays and Vectors" bezig, de opdrachten die ik ga maken zijn: "Making the grade", "High Scores" en gedeeltelijk met "Sieve" | 3 uur    |
+| Week 49 | 2-dec  | In exercism.org verder bezig met de module "Arrays and Vectors", de opdrachten die ik ga maken zijn "Sieve", "Prime Factors" en "Matching Brackets"         | 3 uur    |
+| Week 50 | 9-dec  | In exercism.org met de modules "References" en deels met "Pointers" bezig, ik ga de opdrachten: "Election Day" en "Speedywagon Foundation"                  | 3 uur    |
+| Week 51 | 16-dec | In exercism.org met de modules "Pointers" en met "Smart Pointers" bezig, de opdrachten zijn "Simple Linked Text" Hiermee rond ik de opdracht af             | 1.5 uur  |
+| Week 51 | 16-dec | Ik ga een begin maken aan de opdracht rondom het prototype                                                                                                  | 1.5 uur  |
+| Week 52 | 22-dec | Ik ga verder met het prototype project                                                                                                                      | 3 uur    |
+| Week 52 | 23-dec | Ik ga het prototype en het verslag.md afronden                                                                                                              | 3 uur    |
+
+Er is een kans dat het schema zal uitlopen, als dit gebeurd zal dit vermeld worden in het logboek met de reden hiervan. Ook zal er deels in de winter-vakantie aan het prototype
 
 ### Logboek
 
