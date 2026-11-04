@@ -250,7 +250,7 @@ Wat het eindproduct / eindprototype word is als volgt: In NexEd hebben we een pr
 | Week 52 | 22-dec | Ik ga verder met het prototype project                                                                                                                      | 3 uur    |
 | Week 52 | 23-dec | Ik ga het prototype en het verslag.md afronden                                                                                                              | 3 uur    |
 
-Er is een kans dat het schema zal uitlopen, als dit gebeurd zal dit vermeld worden in het logboek met de reden hiervan. Ook zal er deels in de winter-vakantie aan het prototype
+Er is een kans dat het schema zal uitlopen, als dit gebeurd zal dit vermeld worden in het logboek met de reden hiervan. Ook zal er deels in de winter-vakantie aan het prototype werken.
 
 ### Logboek
 
