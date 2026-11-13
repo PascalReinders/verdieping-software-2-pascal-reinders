@@ -234,21 +234,20 @@ Wat het eindproduct / eindprototype word is als volgt: In NexEd hebben we een pr
 
 ### Planning
 
-| Week    | Datum  | Taak                                                                                                                                                        | Tijd     |
-| :------ | :----- | :---------------------------------------------------------------------------------------------------------------------------------------------------------- | :------- |
-| Week 46 | 11-nov | In Codecademy met de module "Hello World", de opdrachten waar ik aan ga werken zijn Lesson "Hello World" en "Compile & Execute"                             | 1 uur    |
-| Week 46 | 11-nov | In Codecademy met de module "Variables", de opdrachten zijn "Variables", "Dog Years", "Quadritic Formula" en "Piggy Bank"                                   | 1.5 uur  |
-| Week 46 | 11-nov | In Codecademy met de module "Conditionals & Logic", de opdracht is: "Conditionals & Logic"                                                                  | 0.5 uur  |
-| Week 47 | 18-nov | In Codecademy met de module verder werken aan "Conditionals & Logic".                                                                                       | 0.75 uur |
-| Week 47 | 18-nov | In Codecademy met de module "Loops", de opdrachten zijn "Loops", "Fizz Buzz" en "Errors"                                                                    | 1.25 uur |
-| Week 47 | 18-nov | In Codecademy met de module "Functions", de opdrachten zijn "Functions", "Functions: Scope & Flexibility" en UFO                                            | 1 uur    |
-| Week 48 | 25-nov | In exercism.org met de module "Arrays and Vectors" bezig, de opdrachten die ik ga maken zijn: "Making the grade", "High Scores" en gedeeltelijk met "Sieve" | 3 uur    |
-| Week 49 | 2-dec  | In exercism.org verder bezig met de module "Arrays and Vectors", de opdrachten die ik ga maken zijn "Sieve", "Prime Factors" en "Matching Brackets"         | 3 uur    |
-| Week 50 | 9-dec  | In exercism.org met de modules "References" en deels met "Pointers" bezig, ik ga de opdrachten: "Election Day" en "Speedywagon Foundation"                  | 3 uur    |
-| Week 51 | 16-dec | In exercism.org met de modules "Pointers" en met "Smart Pointers" bezig, de opdrachten zijn "Simple Linked Text" Hiermee rond ik de opdracht af             | 1.5 uur  |
-| Week 51 | 16-dec | Ik ga een begin maken aan de opdracht rondom het prototype                                                                                                  | 1.5 uur  |
-| Week 52 | 22-dec | Ik ga verder met het prototype project                                                                                                                      | 3 uur    |
-| Week 52 | 23-dec | Ik ga het prototype en het verslag.md afronden                                                                                                              | 3 uur    |
+| Week    | Datum  | Taak                                                                                                                                                | Tijd    |
+| :------ | :----- | :-------------------------------------------------------------------------------------------------------------------------------------------------- | :------ |
+| Week 46 | 11-nov | In Codecademy met de module "Hello World", de opdrachten waar ik aan ga werken zijn Lesson "Hello World" en "Compile & Execute"                     | 1 uur   |
+| Week 46 | 11-nov | In Codecademy met de module "Variables", de opdrachten zijn "Variables", "Dog Years"                                                                | 1 uur   |
+| Week 46 | 11-nov | In Codecademy met de module "Conditionals & Logic", de opdracht is: "Conditionals & Logic" en "Logical Operator"                                    | 1 uur   |
+| Week 47 | 18-nov | In Codecademy met de module "Loops", de opdrachten zijn "Loops", "Fizz Buzz" en "Errors"                                                            | 1.5 uur |
+| Week 47 | 18-nov | In Codecademy met de module "Functions", de opdrachten zijn "Functions", "Functions: Scope & Flexibility" en UFO                                    | 1.5 uur |
+| Week 48 | 25-nov | In exercism.org met de module "Arrays and Vectors" bezig, de opdrachten die ik ga maken zijn: "Making the grade", "High Scores" en deels "Sieve"    | 3 uur   |
+| Week 49 | 2-dec  | In exercism.org verder bezig met de module "Arrays and Vectors", de opdrachten die ik ga maken zijn "Sieve", "Prime Factors" en "Matching Brackets" | 3 uur   |
+| Week 50 | 9-dec  | In exercism.org met de modules "References" en deels met "Pointers" bezig, ik ga de opdrachten: "Election Day" en "Speedywagon Foundation"          | 3 uur   |
+| Week 51 | 16-dec | In exercism.org met de modules "Pointers" en met "Smart Pointers" bezig, de opdrachten zijn "Simple Linked Text" Hiermee rond ik de opdracht af     | 1.5 uur |
+| Week 51 | 16-dec | Ik ga een begin maken aan de opdracht rondom het prototype                                                                                          | 1.5 uur |
+| Week 52 | 22-dec | Ik ga verder met het prototype project                                                                                                              | 3 uur   |
+| Week 52 | 23-dec | Ik ga het prototype en het verslag.md afronden                                                                                                      | 3 uur   |
 
 Er is een kans dat het schema zal uitlopen, als dit gebeurd zal dit vermeld worden in het logboek met de reden hiervan. Ook zal er deels in de winter-vakantie aan het prototype werken.
 
