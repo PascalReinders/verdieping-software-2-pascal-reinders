@@ -42,9 +42,16 @@ Datum : 07/10/2026
     - [Prototype voorstel](#prototype-voorstel)
     - [Planning](#planning)
     - [Logboek](#logboek)
+      - [11 november 2026](#11-november-2026)
+        - [Hoeveel uur heb je gewerkt?](#hoeveel-uur-heb-je-gewerkt)
+        - [Wat heb je gedaan?](#wat-heb-je-gedaan)
+        - [Wat ging goed?](#wat-ging-goed)
+        - [Wat ging minder goed/problemen?](#wat-ging-minder-goedproblemen)
+        - [Hoe is het probleem opgelost?](#hoe-is-het-probleem-opgelost)
+        - [Bronnen.](#bronnen)
   - [Prototype](#prototype)
   - [Eindconclusie](#eindconclusie)
-  - [Bronnen](#bronnen)
+  - [Bronnen](#bronnen-1)
   - [](#)
 
 ---
@@ -253,7 +260,37 @@ Er is een kans dat het schema zal uitlopen, als dit gebeurd zal dit vermeld word
 
 ### Logboek
 
-Hou een logboek bij van de tijd die je besteed aan het maken van je prototype. Noteer hierin ook de stappen die je hebt gezet om je leerdoelen te behalen.
+#### 11 november 2026
+
+##### Hoeveel uur heb je gewerkt?
+
+3 uur.
+
+##### Wat heb je gedaan?
+
+Er is gewerkt aan de modules: "Hello World" (opdrachten: "Hello World" en "Compile & Execute"), "Variables" (opdrachten: "Variables en Dog Years") en "Conditionals & Logic" (opdrachten: "Conditionals & Logic" en "Logical Operator"). Ik heb als bewijsstuk de taken van opdrachten in lessen in verschillende mappen gedaan die dus leiden naar de C++ files. Deze files zijn om te bewijzen dat ik de stof kan en dat ik het heb toegepast bij de opdrachten.
+
+##### Wat ging goed?
+
+De opdrachten werden heel duidelijk en simpel uitgelegd, vaak met voorbeelden en code wat je op de website zelf ook mag uitproberen om te testen wat het doet. De modules "Variables" en "Conditionals & Logic" waren best makkelijk doorheen te gaan, want het is hetzelfde stuk code wat je moet schrijven als in C# om het werkend te maken. Je kan zeggen dat het herhaling is, wat opzich niet zo erg is, want ik wist zelf niet dat C++ en C# in dat gebied hetzelfde waren. "Hello World" module was echter wel het leerzaamste, want de syntax voor om een bericht naar de terminal te sturen en of je een bericht in de terminal wilt intypen is veel ingewikkelder en anders dan C# zelf, waardoor ik de syntax moest stampen in mijn hoofd om het te onthouden. Ook moest je zelf de code steeds compilen als je verandeingen maakte en het wou uitvoeren in de terminal. De opdrachten hebben mij erg goed geholpen met het leren, want je hebt daar zelf een terminal van de website zelf die je mag gebruiken, vanuit de terminal moest je de opdrachten ook voltooien, als je een fout had gaf het een tip waar het misschien fout ging.
+
+##### Wat ging minder goed/problemen?
+
+De opdrachten zelf maken ging vrij soepel, maar ik liep wel ergens anders tegen aan. Er was een probleem in Visual Studio Code zelf. Ik had de benodigde pakketten voor C++ geïnstalleerd op mijn laptop en dat was allemaal goed verlopen. Het probleem kwam toen ik een C++ file wou compilen, toen kreeg ik een error binnen, want de g++ debug comfiguration verscheen niet bij de opties.
+
+Er is ook iets anders wat ik wou melden. Op Codecademy moet je betalen voor de projecten, je krijgt eerst twee gratis kado van hun. "Dog Years" was een project en die heb ik ook voltooid. Dus mijn aanpak om leerdoel 1 te leren is ook om de rest van de lessen van de modules te leren en om nog een laatste project te maken. De lessen die ze geven zijn goed genoeg om de stof te leren en te begrijpen.
+
+##### Hoe is het probleem opgelost?
+
+Ik had op de officiële website gekeken, want daar staat specifiek uitgelegd hoe je alles installeert en opricht zodat het werkt. Bij run helloworld.cpp zag ik bij kopje 3 de optie die ik moest selecteren. Die stond er bij mij helaas er niet tussen. Op de site zelf stond duidelijk als je alle stappen gevolgd hebt, dat het moet werken, dus leek het mij een handige oplossing om alle tabs van mijn Visual Studio Code af te sluiten en opnieuw op te starten, toen stond het er gelukkig wel tussen als optie en kon ik mijn code compilen en uittesten.
+
+##### Bronnen.
+
+Codecademy, C++ Course. Hello world, Variables, Conditionals & Logic.
+Geraadpleegd op 11 november 2026: https://www.codecademy.com/enrolled/courses/learn-c-plus-plus
+
+code.visualstudio.com, C/C++ for Visual Studio Code. Run helloworld.cpp, 3.
+Geraadpleegd op 11 november 2026: https://code.visualstudio.com/docs/languages/cpp
 
 ## Prototype
 
