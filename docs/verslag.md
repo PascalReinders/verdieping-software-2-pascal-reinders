@@ -217,18 +217,24 @@ Voor mijn Verdieping Software ga ik de progammeertaal C++ eigen maken. Ik heb hi
 
 ### Prototype voorstel
 
-Om echt te kunnen bewijzen dat ik de drie C++ leerdoelen onder de knie heb. Daarvoor zal ik echter een prototype moeten stellen. Waar ik nu mee bezig ga is een voorstel voor mijn prototype. Hier word erop gericht dat iedereen kan zien dat ik echt de kennis heb.
+Er komt een map met alle opdrachten die ik heb gemaakt met deze websites: "codecademy" en "exercism". In die map zullen drie mappen zijn met een van de leerdoelen als naam, daarin vind je de opdrachten die zouden moeten voldoen aan het specifieke leerdoel. Ook ga ik een eindopdracht / eindprototype maken, daarin zal ik alle drie leerdoelen samenstellen en een werkende opdracht maken.
 
-Het idee voor het voorstel zit zo inelkaar: Er komt een map met alle opdrachten die ik heb gemaakt met deze websites: "codecademy" en "exercism". In die map zullen drie mappen zijn met een van de leerdoelen als naam, daarin vind je de opdrachten die zouden moeten voldoen aan het specifieke leerdoel. Ook ga ik een eindopdracht / eindprototype maken, daarin zal ik alle drie leerdoelen samenstellen en een werkende opdracht maken.
+Je speelt met vijf spelers, jezelf en vier andere AI's. Een hiervan is dus ook de koning die het spel heeft bedacht. Je speelt het spel genaamd "Balance Scale". Voornamelijk geïnspireerd uit de (Manga) serie Alice in Borderland, het spel werd geïntroduceerd bij de King of Diamonds challenge.
 
-Wat het eindproduct / eindprototype word is als volgt: In NexEd hebben we een project voor C# en daarin moet je een Trivia Game maken, ik wil deze opdracht ombouwen tot een opdracht waarin ik de leerdoelen die ik heb geleerd. Wat je in dat C# project moest maken was een console game schrijven waarin je trivia vragen moet beantwoorden. De game moet de vragen uit een willkeurig uit een lijst met vooraf opgestelde vragen en antwoorden kiezen. Je moet er ook voor zorgen dat je niet meerdere keren dezefde vraag tegenkomt als je het speelt. De game moet duren totdat de speler een x aantal fouten maakt of de vragen allemaal beantwoord zijn. Ook moet de totale score gedurende game bijgehouden worden van de speler. De game moet ook vanbinnen een start-'menu' hebben en moet binnen de applicatie opnieuw te starten. Deze eisen wil ik minimaal eisen in het eindprototype, dit doe ik i.v.m normale criteria en user-stories criteria:
+De spelers kiezen een nummer van 0 tot de 100. Het gemiddelde wat er uit de antwoorden is gekomen word vermenigvuldigd met 0.8. De speler die het dichtbijzijnde was bij het nieuwe gemiddelde nummer is de winnaar, degene die had verloren krijgt een punt erbij. Als een van de spelers 8 scoort met de punten, heeft diegene verloren.
 
-- In de opdracht moet minstens 20 verschillende vragen en antwoorden terugkomen.
-- De vragen moeten willekeurig zijn.
-- Een vraag mag niet terugkomen in de game als het al beantwoord is
-- Een score systeem.
+Telkens als er een speler verliest komt er een nieuwe regel in het spel. Als er een speler af is gegaan komt deze regel: Als twee of meer spelers dezelfde nummer kiezen worden ze gedisqualificeerd van de ronde, de spelers die hetzelfde hadden krijgen een punt erbij. Als er twee spelers af gegaan zijn komt er deze regel: Als je de winnende nummer hebt gekozen verliest de rest van de spelers twee punten erbij. Bij drie spelers die af zijn gegaan komt deze laatste regel erbij: Als een speler de nummer 0 kiest, kan de andere speler het hele spel winnen door 100 te kiezen.
+
+Het lijkt mij ook leuk om de tegenstanders wat willkeurige dialogue mee te geven, zodat ze wat menselijker aanvoelen om tegen te spelen.
+
+Deze eisen wil ik minimaal eisen in het eindprototype, dit doe ik i.v.m normale criteria en user-stories criteria:
+
+- Een score systeem van de spelers.
+- Een willkeurige dialogue voor alle AI spelers.
 - Herstarten binnen applicatie.
 - Startmenu met spelernaam.
+- Voor OOP word er gebruik gemaakt van verschillende classes die met elkaar gaan interacteren.
+- Het spel moet lijken om de beschrijving die er is meegegeven.
 
 - Als docent wil ik geen losse arrays van losse strings, maar een volwaardige class zien, zodat ik weet dat leerdoel 1 is toegepast.
 - Als docent wil ik variabelen in de class member: private zien, zodat ik weet dat leerdoel 1 is toegepast.
