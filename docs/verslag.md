@@ -49,9 +49,16 @@ Datum : 07/10/2026
         - [Wat ging minder goed/problemen?](#wat-ging-minder-goedproblemen)
         - [Hoe is het probleem opgelost?](#hoe-is-het-probleem-opgelost)
         - [Bronnen.](#bronnen)
+      - [22 november 2026](#22-november-2026)
+        - [Hoeveel uur heb je gewerkt?](#hoeveel-uur-heb-je-gewerkt-1)
+        - [Wat heb je gedaan?](#wat-heb-je-gedaan-1)
+        - [Wat ging goed?](#wat-ging-goed-1)
+        - [Wat ging minder goed/problemen?](#wat-ging-minder-goedproblemen-1)
+        - [Hoe is het probleem opgelost?](#hoe-is-het-probleem-opgelost-1)
+        - [Bronnen.](#bronnen-1)
   - [Prototype](#prototype)
   - [Eindconclusie](#eindconclusie)
-  - [Bronnen](#bronnen-1)
+  - [Bronnen](#bronnen-2)
   - [](#)
 
 ---
@@ -252,8 +259,8 @@ Deze eisen wil ik minimaal eisen in het eindprototype, dit doe ik i.v.m normale 
 | Week 46 | 11-nov | In Codecademy met de module "Hello World", de opdrachten waar ik aan ga werken zijn Lesson "Hello World" en "Compile & Execute"                     | 1 uur   |
 | Week 46 | 11-nov | In Codecademy met de module "Variables", de opdrachten zijn "Variables", "Dog Years"                                                                | 1 uur   |
 | Week 46 | 11-nov | In Codecademy met de module "Conditionals & Logic", de opdracht is: "Conditionals & Logic" en "Logical Operator"                                    | 1 uur   |
-| Week 47 | 18-nov | In Codecademy met de module "Loops", de opdrachten zijn "Loops", "Fizz Buzz" en "Errors"                                                            | 1.5 uur |
-| Week 47 | 18-nov | In Codecademy met de module "Functions", de opdrachten zijn "Functions", "Functions: Scope & Flexibility" en UFO                                    | 1.5 uur |
+| Week 47 | 18-nov | In Codecademy met de module "Loops", de opdrachten zijn "Loops", en "Errors"                                                                        | 1 uur   |
+| Week 47 | 18-nov | In Codecademy met de module "Functions", de opdrachten zijn "Functions", "Functions: Scope & Flexibility" en "Code Challange: C++ Functions"        | 2 uur   |
 | Week 48 | 25-nov | In exercism.org met de module "Arrays and Vectors" bezig, de opdrachten die ik ga maken zijn: "Making the grade", "High Scores" en deels "Sieve"    | 3 uur   |
 | Week 49 | 2-dec  | In exercism.org verder bezig met de module "Arrays and Vectors", de opdrachten die ik ga maken zijn "Sieve", "Prime Factors" en "Matching Brackets" | 3 uur   |
 | Week 50 | 9-dec  | In exercism.org met de modules "References" en deels met "Pointers" bezig, ik ga de opdrachten: "Election Day" en "Speedywagon Foundation"          | 3 uur   |
@@ -297,6 +304,49 @@ Geraadpleegd op 11 november 2026: https://www.codecademy.com/enrolled/courses/le
 
 code.visualstudio.com, C/C++ for Visual Studio Code. Run helloworld.cpp, 3.
 Geraadpleegd op 11 november 2026: https://code.visualstudio.com/docs/languages/cpp
+
+#### 22 november 2026
+
+##### Hoeveel uur heb je gewerkt?
+
+4 uur.
+
+##### Wat heb je gedaan?
+
+Ik ben bezig geweest met de Loops (Opdrachten: Loops en Errors) en Functions (Opdrachten: Functions, Code Challenge: C++ Functions en Functions: Scope & Flexibility) modules. Wat ik in C++ heb geleerd is:
+
+- For & While loops
+- Compile-time errors, Link-time errors, Run-time errors en Logic errors
+- Build in Functions
+- Zelf eigen Functions coderen & creatieve manieren om Functions toe te passen
+- Hoe ik Header files gebruik
+- Hoe ik Functies inline krijg
+- Wat een Function overload is
+- Hoe je Function templates gebruikt
+
+_note_ Volgens de planning zou ik al op 18-11-2026 bezig moeten gaan met verdieping software. Maar omdat het toen deepdive week was had ik niet de tijd om eraan te werken. Dus heb ik het verplaatst naar 22-11-2026.
+
+##### Wat ging goed?
+
+De loops module was erg makkelijk, want de for en while loops zijn hetzelfde als in C#. Maar de errors opdracht zelf was wel leerzaam, want ik heb nu vier soorten errors geleerd, met erbij hoe je de errors kan verbeteren naar werkende code. Ik heb bij de Functions module ook erg veel geleerd, zelfs dingen die ik nog niet wist. Want ik wist niet dat het mogelijk was om bij bijvoorbeeld deze code: "bool voorbeeld(std::string text, int x)" andere dingen als parameters kon gebruiken, als je maar een bool returned. Ook header files, inline functies, function overload en function template waren echt dingen die nieuw waren voor mij om te leren. Ik vind dat de lessen van codecademy de dingen goed uitgelegd hebben.
+
+##### Wat ging minder goed/problemen?
+
+Bij de Code Challenge: C++ Functions opdracht moest ik een opdracht maken over een Palindrome (Je moest hier checken of text hetzelfde blijft als je text achterstevoren leest ook hetzelfde is als je het normaal leest.). Maar ik wist niet hoe ik zoiets in C++ moest checken.
+
+##### Hoe is het probleem opgelost?
+
+Ik heb op de geeksforgeeks website gekeken voor de reverse() function. Toen ik dit toepaste had ik nogsteeds errors (maar ik had wel uitgevogeld hoe de reverse() functie werkte in mijn code). Dit kwam omdat ik using namespace std had toegepast in de code, de website wou perse dat je zoiets niet gebruikte maar gewoon inplaats daarvan std:: gebruikt. Dit is best irritant want het is veel simpeler om een namespace te gebruiken voor nettere code.
+
+Ook een klacht wat ik heb over de website is dat het heel gevoelig is voor spelfouten in strings zelf (rest van code werkt als het moet). En de volgorde dat je iets plaatst in een if statement, ik had dit "if (is_succulent == false && days > 3)", maar volgens de website moest het specifiek zo zijn: "if (days > 3 && is_succulent == false)".
+
+##### Bronnen.
+
+Codecademy, C++ Course. Loops, Functions.
+Geraadpleegd op 22 november 2026: https://www.codecademy.com/enrolled/courses/learn-c-plus-plus
+
+GeeksforGeeks, reverse() in C++ STL.
+Geraadpleegd op 22 november 2026: https://www.geeksforgeeks.org/cpp/stdreverse-in-c/
 
 ## Prototype
 
