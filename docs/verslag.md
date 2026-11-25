@@ -56,9 +56,16 @@ Datum : 07/10/2026
         - [Wat ging minder goed/problemen?](#wat-ging-minder-goedproblemen-1)
         - [Hoe is het probleem opgelost?](#hoe-is-het-probleem-opgelost-1)
         - [Bronnen.](#bronnen-1)
+      - [25 november 2026](#25-november-2026)
+        - [Hoeveel uur heb je gewerkt?](#hoeveel-uur-heb-je-gewerkt-2)
+        - [Wat heb je gedaan?](#wat-heb-je-gedaan-2)
+        - [Wat ging goed?](#wat-ging-goed-2)
+        - [Wat ging minder goed/problemen?](#wat-ging-minder-goedproblemen-2)
+        - [Hoe is het probleem opgelost?](#hoe-is-het-probleem-opgelost-2)
+        - [Bronnen.](#bronnen-2)
   - [Prototype](#prototype)
   - [Eindconclusie](#eindconclusie)
-  - [Bronnen](#bronnen-2)
+  - [Bronnen](#bronnen-3)
   - [](#)
 
 ---
@@ -226,13 +233,13 @@ Voor mijn Verdieping Software ga ik de progammeertaal C++ eigen maken. Ik heb hi
 
 Er komt een map met alle opdrachten die ik heb gemaakt met deze websites: "codecademy" en "exercism". In die map zullen drie mappen zijn met een van de leerdoelen als naam, daarin vind je de opdrachten die zouden moeten voldoen aan het specifieke leerdoel. Ook ga ik een eindopdracht / eindprototype maken, daarin zal ik alle drie leerdoelen samenstellen en een werkende opdracht maken.
 
-Je speelt met vijf spelers, jezelf en vier andere AI's. Een hiervan is dus ook de koning die het spel heeft bedacht. Je speelt het spel genaamd "Balance Scale". Voornamelijk geïnspireerd uit de (Manga) serie Alice in Borderland, het spel werd geïntroduceerd bij de King of Diamonds challenge.
+Ik ben van plan om een C++ terminal game te maken met de leerdoelen die ik heb geleerd. Jij als speler moet het opnemen tegen vier andere computer gestuurde spelers. Een hiervan is dus ook de koning die het spel heeft bedacht. Je speelt het spel genaamd "Balance Scale". Voornamelijk geïnspireerd uit de (Manga) serie Alice in Borderland, het spel werd geïntroduceerd bij de King of Diamonds challenge. De computer gestuurde spelers kiezen gewoon een willkeurige nummer. Maar in latere rondes gaan ze andere strategieën nemen, ze gaan bijvoorbeeld een getal zoals 100 kiezen en een andere groep mensen gaat boven de 80 kiezen, of ze kiezen specifieke getallen niet. Mijn doel is dat de computer bestuurde spelers kiezen zoals de spelers in de manga / show.
 
 De spelers kiezen een nummer van 0 tot de 100. Het gemiddelde wat er uit de antwoorden is gekomen word vermenigvuldigd met 0.8. De speler die het dichtbijzijnde was bij het nieuwe gemiddelde nummer is de winnaar, degene die had verloren krijgt een punt erbij. Als een van de spelers 8 scoort met de punten, heeft diegene verloren.
 
-Telkens als er een speler verliest komt er een nieuwe regel in het spel. Als er een speler af is gegaan komt deze regel: Als twee of meer spelers dezelfde nummer kiezen worden ze gedisqualificeerd van de ronde, de spelers die hetzelfde hadden krijgen een punt erbij. Als er twee spelers af gegaan zijn komt er deze regel: Als je de winnende nummer hebt gekozen verliest de rest van de spelers twee punten erbij. Bij drie spelers die af zijn gegaan komt deze laatste regel erbij: Als een speler de nummer 0 kiest, kan de andere speler het hele spel winnen door 100 te kiezen.
+Telkens als er een speler verliest als ze boven de 8 score limiet komen, zal er een nieuwe regel in het spel komen. Als er een speler af is gegaan komt deze regel: Als twee of meer spelers dezelfde nummer kiezen worden ze gedisqualificeerd van de ronde, de spelers die hetzelfde hadden krijgen een punt erbij. Als er twee spelers af gegaan zijn komt er deze regel: Als je de winnende nummer hebt gekozen verliest de rest van de spelers twee punten erbij. Bij drie spelers die af zijn gegaan komt deze laatste regel erbij: Als een speler de nummer 0 kiest, kan de andere speler het hele spel winnen door 100 te kiezen.
 
-Het lijkt mij ook leuk om de tegenstanders wat willkeurige dialogue mee te geven, zodat ze wat menselijker aanvoelen om tegen te spelen.
+Ook ga ik de computer gestuurde spelers wat willkeurige dialogue mee te geven, zodat ze wat menselijker aanvoelen om tegen te spelen. Dit wil ik doen als ze bijvoorbeeld winnen / verliezen / ge-elimineerd / uitdagen, dat er een wilkeurige tekst word geselecteerd, specifiek op wat er met die computer bestuurde speler gebeurd, maar dit wil niet betekenen dat ze telkens iets gaan zeggen als er iets gebeurt.
 
 Deze eisen wil ik minimaal eisen in het eindprototype, dit doe ik i.v.m normale criteria en user-stories criteria:
 
@@ -254,22 +261,22 @@ Deze eisen wil ik minimaal eisen in het eindprototype, dit doe ik i.v.m normale 
 
 ### Planning
 
-| Week    | Datum  | Taak                                                                                                                                                | Tijd    |
-| :------ | :----- | :-------------------------------------------------------------------------------------------------------------------------------------------------- | :------ |
-| Week 46 | 11-nov | In Codecademy met de module "Hello World", de opdrachten waar ik aan ga werken zijn Lesson "Hello World" en "Compile & Execute"                     | 1 uur   |
-| Week 46 | 11-nov | In Codecademy met de module "Variables", de opdrachten zijn "Variables", "Dog Years"                                                                | 1 uur   |
-| Week 46 | 11-nov | In Codecademy met de module "Conditionals & Logic", de opdracht is: "Conditionals & Logic" en "Logical Operator"                                    | 1 uur   |
-| Week 47 | 18-nov | In Codecademy met de module "Loops", de opdrachten zijn "Loops", en "Errors"                                                                        | 1 uur   |
-| Week 47 | 18-nov | In Codecademy met de module "Functions", de opdrachten zijn "Functions", "Functions: Scope & Flexibility" en "Code Challange: C++ Functions"        | 2 uur   |
-| Week 48 | 25-nov | In exercism.org met de module "Arrays and Vectors" bezig, de opdrachten die ik ga maken zijn: "Making the grade", "High Scores" en deels "Sieve"    | 3 uur   |
-| Week 49 | 2-dec  | In exercism.org verder bezig met de module "Arrays and Vectors", de opdrachten die ik ga maken zijn "Sieve", "Prime Factors" en "Matching Brackets" | 3 uur   |
-| Week 50 | 9-dec  | In exercism.org met de modules "References" en deels met "Pointers" bezig, ik ga de opdrachten: "Election Day" en "Speedywagon Foundation"          | 3 uur   |
-| Week 51 | 16-dec | In exercism.org met de modules "Pointers" en met "Smart Pointers" bezig, de opdrachten zijn "Simple Linked Text" Hiermee rond ik de opdracht af     | 1.5 uur |
-| Week 51 | 16-dec | Ik ga een begin maken aan de opdracht rondom het prototype                                                                                          | 1.5 uur |
-| Week 52 | 22-dec | Ik ga verder met het prototype project                                                                                                              | 3 uur   |
-| Week 52 | 23-dec | Ik ga het prototype en het verslag.md afronden                                                                                                      | 3 uur   |
+| Week    | Datum  | Taak                                                                                                                                                                  | Tijd    |
+| :------ | :----- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------ |
+| Week 46 | 11-nov | In Codecademy met de module "Hello World", de opdrachten waar ik aan ga werken zijn Lesson "Hello World" en "Compile & Execute"                                       | 1 uur   |
+| Week 46 | 11-nov | In Codecademy met de module "Variables", de opdrachten zijn "Variables", "Dog Years"                                                                                  | 1 uur   |
+| Week 46 | 11-nov | In Codecademy met de module "Conditionals & Logic", de opdracht is: "Conditionals & Logic" en "Logical Operator"                                                      | 1 uur   |
+| Week 47 | 18-nov | In Codecademy met de module "Loops", de opdrachten zijn "Loops", en "Errors"                                                                                          | 1 uur   |
+| Week 47 | 18-nov | In Codecademy met de module "Functions", de opdrachten zijn "Functions", "Functions: Scope & Flexibility" en "Code Challange: C++ Functions"                          | 2 uur   |
+| Week 48 | 25-nov | In Codecademy met de module "Vectors" bezig, de opdracht die ik ga maken is: "Vectors", ik ga ook een article genaamd "Arrays" bestuderen                             | 3 uur   |
+| Week 49 | 2-dec  | In Codecademy met de module "Classes and Objects", de opdracht die ik ga maken is "Classes and Objects", er zit ook een aparte video en Article bij                   | 3 uur   |
+| Week 50 | 9-dec  | In Codecademy met de module "References & Pointers" bezig, ik ga de opdracht: "References and Pointers" bezig, ook ga ik een article over memory allocation studeren. | 3 uur   |
+| Week 51 | 16-dec | In exercism.org met de modules "Pointers" en met "Smart Pointers" bezig, de opdrachten zijn "Simple Linked Text" Hiermee rond ik de opdracht af                       | 1.5 uur |
+| Week 51 | 16-dec | Ik ga een begin maken aan de opdracht rondom het prototype                                                                                                            | 1.5 uur |
+| Week 52 | 22-dec | Ik ga verder met het prototype project                                                                                                                                | 3 uur   |
+| Week 52 | 23-dec | Ik ga het prototype en het verslag.md afronden                                                                                                                        | 3 uur   |
 
-Er is een kans dat het schema zal uitlopen, als dit gebeurd zal dit vermeld worden in het logboek met de reden hiervan. Ook zal er deels in de winter-vakantie aan het prototype werken.
+Er is een kans dat het schema zal uitlopen, als dit gebeurd zal dit vermeld worden in het logboek met de reden hiervan. Ook zal er deels in de winter-vakantie aan het prototype werken. Ook bereken ik het logboek niet bij de tijd die ik heb gespendeerd op die specifieke dag.
 
 ### Logboek
 
@@ -347,6 +354,48 @@ Geraadpleegd op 22 november 2026: https://www.codecademy.com/enrolled/courses/le
 
 GeeksforGeeks, reverse() in C++ STL.
 Geraadpleegd op 22 november 2026: https://www.geeksforgeeks.org/cpp/stdreverse-in-c/
+
+#### 25 november 2026
+
+##### Hoeveel uur heb je gewerkt?
+
+2 uur.
+
+##### Wat heb je gedaan?
+
+Ik heb geleerd hoe ik Vectors aanmaak en de methodes die ik erop kan toepassen, wat ik heb geleerd van de opdracht is het volgende:
+
+- Hoe je een vector aanmaakt en initialiseert.
+- Hoe de index werkt en hoe je er een oproept.
+- Hoe je iets toevoegt en weer verwijderd uit een vector.
+- Hoe je de lengte van een vector terug kan zien.
+- Hoe je een loop gebruikt om door een vector te gaan.
+
+Ik heb ook een bijhorende artikel gestudeerd over arrays. Daaruit heb ik geleerd dat je geen dingen uit een array kan verwijderen of toevoegen, je moet ook vantevoren aangeven wat de totale lengte van de array word, als je de waardes vantevoren weet die je in de array wilt voegen kan je de custom values ook toevoegen. Vectors hebben eigenlijk meer flexibiliteit dan een Array. Arrays zijn ook een lower-level construct van de progammeertaal C, de taal waarmee C++ is gemaakt
+
+##### Wat ging goed?
+
+Het concept van vectors is echt best makkelijk om te begrijpen, het is eigenlijk heel erg vergelijkbaar met een list<> van C#. Ik kon daardoor best snel door de opdracht heen, ik heb ook de challenge opdracht voor vectors gemaakt. Waarom ik vectors had gekozen voor leerdoel 2 omdat ik had gelezen dat de syntax van C++ erg anders is dan C# en meer vergelijkbaar is met de syntax van C. Het word ook een erg belangrijk onderdeel voor mijn Prototype want het word erg afhankelijk van vectors.
+
+##### Wat ging minder goed/problemen?
+
+_note_ Ik wou Vectors leren via exercism.org, toen ik op de website was en de eerste opdracht wou maken bleek dus dat ik met de eerste opdracht "Hello World" moest beginnen. als ik bij de vector & arrays module wou komen moest ik 30/40+ opdrachten maken, dit past niet op mijn schema dus heb ik de planning veranderd. deze dingen vervallen dus echt ook.
+
+- Week 48 25-nov In exercism.org met de module "Arrays and Vectors" bezig, de opdrachten die ik ga maken zijn: "Making the grade", "High Scores" en deels "Sieve" 3 uur
+- Week 49 2-dec In exercism.org verder bezig met de module "Arrays and Vectors", de opdrachten die ik ga maken zijn "Sieve", "Prime Factors" en "Matching Brackets" 3 uur
+- Week 50 9-dec In exercism.org met de modules "References" en deels met "Pointers" bezig, ik ga de opdrachten: "Election Day" en "Speedywagon Foundation" 3 uur
+- Week 51 16-dec In exercism.org met de modules "Pointers" en met "Smart Pointers" bezig, de opdrachten zijn "Simple Linked Text" Hiermee rond ik de opdracht af 1.5 uur
+
+Ik heb nu ook "Classes and Objects" module in de planning gestopt, ik was al van plan om deze te maken, maar ik was vergeten om het in de planning te stoppen.
+
+##### Hoe is het probleem opgelost?
+
+Ik kan de leerdoelen alsnog leren via codecademy, dit is juist een goed ding want hiermee kan ik sneller de leerdoelen leren en daarna bezig met het Prototype.
+
+##### Bronnen.
+
+Codecademy, C++ Course. Vectors.
+Geraadpleegd op 25 november 2026: https://www.codecademy.com/enrolled/courses/learn-c-plus-plus
 
 ## Prototype
 
